@@ -72,16 +72,24 @@ portfolio/
 Se pretenderes testar a aplicação no teu ambiente local:
 
 1. **Clona o repositório:**
+   ```bash
    git clone [https://github.com/resendesricardo2/portfolio.git](https://github.com/resendesricardo2/portfolio.git)
+   ```
 
 2. **Instala as dependências:**
+   ```bash
    npm install
+   ```
 
 3. **Inicia o servidor de desenvolvimento:**
+   ```bash
    npm run dev
+   ```
 
 4. **Gera a compilação para produção:**
+   ```bash
    npm run build
+   ```
 
 ---
 
