@@ -42,11 +42,12 @@
 
 ## 📁 Estrutura do Projeto
 
+```text
 portfolio/
-├── public/                 # Favicon
+├── public/                     # Favicon e ficheiros estáticos (robots.txt, sitemap.xml)
 ├── src/
-│   ├── assets/             # Estilos globais (CSS) e imagens dos projetos
-│   ├── components/         # Componentes reutilizáveis Vue
+│   ├── assets/                 # Estilos globais (CSS) e imagens dos projetos
+│   ├── components/             # Componentes reutilizáveis Vue
 │   │   ├── AboutSection.vue
 │   │   ├── ContactSection.vue
 │   │   ├── ExperienceSection.vue
@@ -55,13 +56,14 @@ portfolio/
 │   │   ├── ImageModal.vue
 │   │   ├── Navbar.vue
 │   │   └── ProjectsSection.vue
-│   ├── data/               # Dados estáticos (projectsData, skills, experience)
-│   ├── App.vue             # Componente raiz/orquestrador da aplicação
-│   └── main.js             # Ponto de entrada da aplicação Vue
-├── index.html              # Ficheiro HTML principal com meta tags e SEO
-├── jsconfig.json           # Configuração de alias (@/*) para o editor
-├── vercel.json             # Regras de rewrites e cabeçalhos de segurança
-└── package.json            # Dependências e scripts do projeto
+│   ├── data/                   # Dados estáticos (portfolioData.js)
+│   ├── App.vue                 # Componente raiz/orquestrador da aplicação
+│   └── main.js                 # Ponto de entrada da aplicação Vue
+├── index.html                  # Ficheiro HTML principal com meta tags e SEO
+├── jsconfig.json               # Configuração de alias (@/*) para o editor
+├── vercel.json                 # Regras de rewrites e cabeçalhos de segurança
+└── package.json                # Dependências e scripts do projeto
+```
 
 ---
 
