@@ -6,13 +6,12 @@
     Uma aplicação web de alta performance e interface moderna, desenvolvida para apresentar projetos em destaque, competências técnicas e trajetória profissional.
   </p>
 
-  <p>
-    ![Vue 3](https://img.shields.io/badge/Vue.js_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
+![Vue 3](https://img.shields.io/badge/Vue.js_3-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
-  </p>
+
 
   <h4>
     🌐 <a href="[https://portfolio-ricardo-melo.vercel.app](https://portfolio-ricardo-melo.vercel.app)">Ver Site Online (Live Demo)</a>
