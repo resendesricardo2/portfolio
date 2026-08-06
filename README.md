@@ -14,8 +14,8 @@
 
 
   <h4>
-    🌐 <a href="[https://ricardo-melo-portfolio.vercel.app/](https://ricardo-melo-portfolio.vercel.app/)">Ver Site Online (Live Demo)</a>
-  </h4>
+  🌐 <a href="https://ricardo-melo-portfolio.vercel.app/">Ver o meu Portfólio ao Vivo</a>
+</h4>
 
 </div>
 
