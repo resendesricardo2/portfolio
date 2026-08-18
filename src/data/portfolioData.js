@@ -1,6 +1,7 @@
 import Fanhub1 from "../assets/styles/images/Fanhub1.png";
 import Fanhub2 from "../assets/styles/images/Fanhub2.png";
 import Fanhub3 from "../assets/styles/images/Fanhub3.png";
+import rentacar1 from "../assets/styles/images/rentacar1.png";
 import metadaimage1 from "../assets/styles/images/metadaimage1.png";
 import suporte1 from "../assets/styles/images/suporte1.png";
 import suporte2 from "../assets/styles/images/suporte2.png";
@@ -80,6 +81,25 @@ export const projectsData = [
         desc: "Tabela interativa da Liga Portugal com atualização automática de dados (jogos, vitórias, golos e pontos), destacando a posição do clube e o estado mais recente da competição."
       }
     ]
+  },
+  {
+    id: "Rent-a-Car",
+    title: "Rent a Car PDL",
+    subtitle: "Desenvolvimento de um website moderno e responsivo para uma empresa de rent-a-car, pensado para proporcionar uma experiência simples e intuitiva desde a escolha da viatura até ao pedido de reserva. O projeto foi desenvolvido com foco na usabilidade, rapidez e adaptação a diferentes dispositivos, apresentando a frota de forma clara e facilitando o acesso às principais informações e serviços da empresa. A interface procura transmitir confiança e profissionalismo, combinando um design clean com uma navegação simples e uma experiência otimizada tanto em desktop como em mobile.",
+    category: "Fullstack",
+    tags: ["Vue.js", "CSS3", "Supabase"],
+    isLive: true, 
+    liveUrl: "https://www.rentacarpontadelgada.com/",
+    thumbnail: rentacar1,
+    fallbackGradient: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f766e 100%)",
+    features: [
+     "Catálogo de viaturas com informação detalhada",
+     "Sistema intuitivo de pesquisa e seleção de veículos",
+     "Formulário de reserva rápido e simplificado",
+     "Design totalmente responsivo para desktop e mobile",
+     "Apresentação clara de preços, características e condições"
+    ],
+    photos: []
   },
   {
     id: "Image-Metadata-Extractor",
