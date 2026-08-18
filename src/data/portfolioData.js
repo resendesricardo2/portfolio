@@ -85,7 +85,7 @@ export const projectsData = [
   {
     id: "Rent-a-Car",
     title: "Rent a Car PDL",
-    subtitle: "Desenvolvimento de um website moderno e responsivo para uma empresa de rent-a-car, pensado para proporcionar uma experiência simples e intuitiva desde a escolha da viatura até ao pedido de reserva. O projeto foi desenvolvido com foco na usabilidade, rapidez e adaptação a diferentes dispositivos, apresentando a frota de forma clara e facilitando o acesso às principais informações e serviços da empresa. A interface procura transmitir confiança e profissionalismo, combinando um design clean com uma navegação simples e uma experiência otimizada tanto em desktop como em mobile.",
+    subtitle: "Desenvolvimento de um website moderno e responsivo para uma empresa de rent-a-car, pensado para proporcionar uma experiência simples e intuitiva desde a escolha da viatura até ao pedido de reserva. A interface procura transmitir confiança e profissionalismo, combinando um design clean com uma navegação simples e uma experiência otimizada tanto em desktop como em mobile.",
     category: "Fullstack",
     tags: ["Vue.js", "CSS3", "Supabase"],
     isLive: true, 
