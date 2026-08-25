@@ -42,7 +42,11 @@ export const skillsData = [
   
   // Database & DevOps
   { name: "PostgreSQL", category: "Database", level: 80, icon: "Database", color: "#4169e1", description: "Relational Queries, Joins, Indexes, Schema Design" },
-  { name: "SQlite3", category: "Database", level: 78, icon: "Database", color: "#47a248", description: "NoSQL, Mongoose Schemas, Aggregations" }
+  { name: "SQlite3", category: "Database", level: 78, icon: "Database", color: "#47a248", description: "NoSQL, Mongoose Schemas, Aggregations" },
+
+  // Tools
+  { name: "Git", category: "Tools", level: 78, icon: "Tools", color: "#4169e1", description: "Version Control, Branches, Commits, Merge Conflicts" },
+  { name: "Github", category: "Tools", level: 80, icon: "Tools", color: "#47a248", description: "Pull Requests, Code Reviews, Issues, GitHub Actions" }
 ];
 
 export const projectsData = [
