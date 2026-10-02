@@ -2,6 +2,7 @@ import Fanhub1 from "../assets/styles/images/Fanhub1.png";
 import Fanhub2 from "../assets/styles/images/Fanhub2.png";
 import Fanhub3 from "../assets/styles/images/Fanhub3.png";
 import rentacar1 from "../assets/styles/images/rentacar1.png";
+import autoemdia1 from "../assets/styles/images/autoemdia1.png";
 import metadaimage1 from "../assets/styles/images/metadaimage1.png";
 import suporte1 from "../assets/styles/images/suporte1.png";
 import suporte2 from "../assets/styles/images/suporte2.png";
@@ -102,6 +103,26 @@ export const projectsData = [
      "Formulário de reserva rápido e simplificado",
      "Design totalmente responsivo para desktop e mobile",
      "Apresentação clara de preços, características e condições"
+    ],
+    photos: []
+  },
+   {
+    id: "Auto-em-Dia",
+    title: "AutoEmDia",
+    subtitle: "Desenvolvimento de uma Progressive Web App (PWA) moderna e responsiva para a gestão da manutenção automóvel. O AutoEmDia permite acompanhar veículos, quilometragem, serviços, despesas e histórico de manutenção, incluindo lembretes importantes para ajudar a prevenir avarias e imprevistos. A interface apresenta um design clean e uma navegação intuitiva, otimizada para desktop e dispositivos móveis, podendo ser instalada diretamente no dispositivo.",
+    category: "Fullstack",
+    tags: ["React", "PWA", "Supabase", "Node.js", "Vercel"],
+    isLive: true, 
+    liveUrl: "https://autoemdia.vercel.app/",
+    thumbnail: autoemdia1,
+    fallbackGradient: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f766e 100%)",
+    features: [
+     "Gestão de múltiplos veículos e respetiva quilometragem",
+     "Registo de manutenções, serviços e despesas automóveis",
+     "Histórico completo das intervenções realizadas",
+     "Lembretes e notificações para manutenções e datas importantes",
+     "Instalação como aplicação PWA em computador e dispositivos móveis",
+      "Design moderno e totalmente responsivo para desktop e mobile"
     ],
     photos: []
   },
