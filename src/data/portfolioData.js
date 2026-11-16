@@ -211,7 +211,22 @@ export const workExperience = [
     "Apoio ao Software PHC."
   ],
   location: "📍 Valados, São Miguel, Açores, Portugal",
+  workMode: "Presencial",
     badges: ["SQL", "MySQL", "HTML", "CSS", "JS", "PHC"]
+  },
+
+  {
+    period: "Setembro de 2026 - Novembro de 2026",
+    role: "Automation Developer",
+    company: "CORE | Business, Marketing & People",
+    description: [
+    "Desenvolvimento e implementação de soluções de automação de processos.",
+    "Criação e otimização de workflows automatizados.",
+    "Integração de sistemas, aplicações e APIs."
+  ],
+  location: "📍 Azores Park - Pavilhão 2.1 - Praceta 2 Caminho Velho do Pico da Pedra, 102, 9500-702 Ponta Delgada",
+  workMode: "Remoto",
+    badges: ["n8n"]
   },
 
   {
@@ -224,6 +239,7 @@ export const workExperience = [
     "Manutenção de Quadros Elétricos."
   ],
   location: "📍 Livramento, São Miguel, Açores, Portugal",
+  workMode: "Presencial",
     badges: ["Simatic"]
   },
 
@@ -238,6 +254,7 @@ export const workExperience = [
     "Administração de Sistemas."
   ],
     location: "📍 Capelas, São Miguel, Açores, Portugal",
+    workMode: "Presencial",
     badges: ["Redes"]
   }
 ];
