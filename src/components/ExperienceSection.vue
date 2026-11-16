@@ -37,10 +37,32 @@ import { workExperience, education } from '../data/portfolioData';
       </div>
 
       <h3 class="timeline-role">{{ item.role }}</h3>
-      <div v-if="item.location" class="timeline-location">
-  <i class="fas fa-location-dot"></i>
-  <span>{{ item.location }}</span>
+      
+<div
+  v-if="item.location || item.workMode"
+  class="timeline-location"
+>
+  <div v-if="item.location" class="location-info">
+    <i class="fas fa-location-dot"></i>
+    <span>{{ item.location }}</span>
+  </div>
+
+  <span
+    v-if="item.workMode"
+    class="work-mode"
+    :class="item.workMode.toLowerCase()"
+  >
+    <i
+      :class="{
+        'fas fa-house-laptop': item.workMode === 'Remoto',
+        'fas fa-building': item.workMode === 'Presencial',
+        'fas fa-laptop-house': item.workMode === 'Híbrido'
+      }"
+    ></i>
+    {{ item.workMode }}
+  </span>
 </div>
+
       <ul class="timeline-desc">
   <li
     v-for="(point, index) in item.description"
@@ -206,18 +228,59 @@ import { workExperience, education } from '../data/portfolioData';
   margin-bottom: 0;
 }
 
+
 .timeline-location {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin: 0.5rem 0 1rem;
+}
+
+.location-info {
   display: flex;
   align-items: center;
   gap: 0.5rem;
   color: var(--text-muted);
   font-size: 0.9rem;
-  margin: 0.5rem 0 1rem;
 }
 
-.timeline-location i {
+.location-info i {
   color: var(--primary);
 }
+
+.work-mode {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  border: 1px solid;
+}
+
+/* Remoto - Azul */
+.work-mode.remoto {
+  color: #818cf8;
+  background: rgba(99, 102, 241, 0.1);
+  border-color: rgba(99, 102, 241, 0.25);
+}
+
+/* Presencial - Verde */
+.work-mode.presencial {
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.1);
+  border-color: rgba(52, 211, 153, 0.25);
+}
+
+/* Híbrido - Roxo */
+.work-mode.híbrido {
+  color: #c084fc;
+  background: rgba(192, 132, 252, 0.1);
+  border-color: rgba(192, 132, 252, 0.25);
+}
+
 
 .timeline-badges {
   display: flex;
